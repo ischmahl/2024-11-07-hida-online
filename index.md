@@ -334,7 +334,7 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
 <h2 id="surveys">Surveys</h2>
-<p>[Link to survey](https://events.hifis.net/event/1311/ )</p>
+<p><a href="https://events.hifis.net/event/1311/">Link to survey</a></p>
 {% if site.carpentry == "incubator" %}
 {% elsif site.incubator_pre_survey or site.incubator_post_survey %}
 <div class="alert alert-danger">
