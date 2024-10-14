@@ -202,7 +202,31 @@ Modify the block below if there are any special requirements.
 </p>
 
 {% comment %}
+ACCESSIBILITY
 
+Modify the block below if there are any barriers to accessibility or
+special instructions.
+{% endcomment %}
+<p id="accessibility">
+  <strong></strong>
+  
+{% if online == "false" %}
+ 
+<p>
+  <ul>
+    
+  </ul>
+{% endif %}
+</p>
+<p>
+</p>
+<p>
+  <a href="https://glosario.carpentries.org/">Glosario</a> is a multilingual glossary 
+  for computing and data science terms. The glossary helps 
+  learners attend workshops and use our lessons to make sense of computational and programming jargon written in English by offering it 
+  in their native language. Translating data science terms also provides a teaching tool for Carpentries Instructors to reduce barriers 
+  for their learners.
+</p>
 
 {% comment %}
 CONTACT EMAIL ADDRESS
