@@ -147,14 +147,9 @@ address.
 {% if page.latitude and page.longitude and online == "false" %}
 <p id="where">
   <strong>Where:</strong>
-  {{page.address}}.
-  Get directions with
-  <a href="//www.openstreetmap.org/?mlat={{page.latitude}}&mlon={{page.longitude}}&zoom=16">OpenStreetMap</a>
-  or
-  <a href="//maps.google.com/maps?q={{page.latitude}},{{page.longitude}}">Google Maps</a>.
+  <a href="https://helmholtz-de.zoom-x.de/j/65296549845?pwd=aqZvoF20LEdaaS1OmrKg3xzsKjvXlV.1">Zoom link</a>.
   {% if page.what3words %}
-    What3Words location:
-    <a href="https://what3words.com/{{page.what3words}}">///{{page.what3words}}</a>.
+   
   {%endif %}
 </p>
 {% elsif online == "true_public" %}
